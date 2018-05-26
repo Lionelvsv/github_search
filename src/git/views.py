@@ -24,7 +24,6 @@ def search(request):
     
 def searchresponse(request,  *args, **kwargs):
     template = loader.get_template('searchresponse.html')
-    g = gh("lionelvsv@gmail.com", "thala1188")
     count = 0
     k = 0
     result = []
